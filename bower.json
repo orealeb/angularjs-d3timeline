@@ -1,0 +1,22 @@
+{
+  "name": "angularjs-d3timeline",
+  "homepage": "http://orealeb.github.io/angularjs-d3timeline/",
+  "authors": [
+    "Ore Alebiosu"
+  ],
+  "description": "d3.js timeline directive for AngularJS",
+  "main": "angularjs-d3timeline.js",
+  "keywords": [
+    "angularjs",
+    "timeline",
+    "d3.js"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

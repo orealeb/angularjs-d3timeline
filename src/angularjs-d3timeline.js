@@ -2,8 +2,8 @@
 
 	'use strict';
 
-	angular.module('d3TimeLine')
-		.directive('d3TimeLine', d3TimeLine);
+	angular.module('angularjs-d3timeline')
+		.directive('angularjs-d3timeline', d3TimeLine);
 
 	/* @ngInject */
 	function d3TimeLine() {
@@ -13,7 +13,7 @@
 				lineGraphData: '=',
 				lineConfig: '='
 			},
-			templateUrl: 'd3TimeLine.html',
+			templateUrl: 'angularjs-d3timeline.html',
 			link: function (scope, element, attrs) {
 
 				// 0. Initialize radius, duration

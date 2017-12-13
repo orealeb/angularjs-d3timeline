@@ -1,0 +1,40 @@
+/* Basic Styling with CSS */
+
+/* Style the lines by removing the fill and applying a stroke */
+.line {
+    fill: none;
+    stroke: $intelBlue;
+    stroke-width: 3;
+}
+
+/* Style the dots by assigning a fill and stroke */
+.dot {
+    stroke: #fff;
+    cursor: pointer;
+}
+
+.timeline-text {
+    height:52px;
+    padding-left: 4px;
+    font-size: 14px;
+}
+
+.legend{
+    font-size: 25px;
+    display: inline-block;
+}
+
+.legend-box{
+    float: right;
+}
+.selected-text{
+    float: left;
+}
+
+.title-text{
+    font-size: 11px;
+    margin-left: -5px;
+    position: relative;
+    top: -3px;
+    padding-right: 5px;
+}

@@ -1,0 +1,12 @@
+<div class="timeline-text">
+    <div class="selected-text">
+        <div ng-if="!selectedDate">Click on dots below for more details </div>
+        <div ng-if="selectedDate">
+            <div> <label>Status: </label> {{selectedDate.title}} </div>
+            <div> <label>Date: </label> {{selectedDate.date | date: 'medium'}} </div>
+        </div>
+    </div>
+    <div class="legend-box">
+        <div ng-repeat="item in lineGraphData"class="legend" ng-style="{'color':item.color}"> &#9679; <span class="title-text"> {{item.status}} </span></div>
+    </div>
+</div>

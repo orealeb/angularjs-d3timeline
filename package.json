@@ -1,0 +1,24 @@
+{
+  "name": "angularjs-d3timeline",
+  "version": "1.0.0",
+  "description": "d3.js timeline directive for AngularJS",
+  "main": "angularjs-d3timeline.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orealeb/angularjs-d3timeline.git"
+  },
+  "keywords": [
+    "angularjs",
+    "d3.js",
+    "timeline"
+  ],
+  "author": "Ore Alebiosu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orealeb/angularjs-d3timeline/issues"
+  },
+  "homepage": "https://github.com/orealeb/angularjs-d3timeline#readme"
+}
